@@ -34,7 +34,7 @@ public class CruddemoApplication {
 
         // get a list of students
         List<Student> theStudents = studentDAO.findAll();
-        
+
         // display list of students
         for (Student tempStudent : theStudents) {
             System.out.println(tempStudent);
